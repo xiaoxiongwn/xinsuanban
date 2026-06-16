@@ -305,7 +305,7 @@ fun LunarDatePickerDialog(
                                         Box(
                                             modifier = Modifier
                                                 .weight(1f)
-                                                .aspectRatio(0.78f)
+                                                .height(58.dp)
                                                 .padding(2.dp)
                                                 .background(
                                                     color = if (isSelected)
